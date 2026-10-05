@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#F3EEE1">
+  <title>Roompulse — Make room for every voice</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='6' y='14' width='52' height='26' fill='%23E07F4F' stroke='%231D2033' stroke-width='3'/%3E%3Crect x='18' y='19' width='6' height='9' fill='%231D2033'/%3E%3Crect x='40' y='19' width='6' height='9' fill='%231D2033'/%3E%3Cpath d='M14 40v10M22 40v10M42 40v10M50 40v10' stroke='%23B95B3D' stroke-width='5'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/fonts/fonts.css">
+  <link rel="stylesheet" href="/style.css">
+  <script src="/vendor/rough.js"></script>
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <header class="site-header"><a class="brand" href="/" aria-label="Roompulse home"><span class="brand-mark">ϟ</span>roompulse<span class="brand-dot">.</span></a><div class="header-right"><span class="connection" id="connection"><i></i> In the room</span><span class="local-tag">A little space for big ideas</span><button class="lang-toggle" id="lang-toggle" type="button"><span data-l="nl">NL</span><span data-l="en">EN</span></button></div></header>
+  <main id="app"><div class="empty">Finding your room…</div></main>
+  <div class="toast" id="toast" role="status" hidden></div>
+  <dialog id="share-dialog"><div id="share-content"></div><button class="button secondary full" id="close-dialog">Done</button></dialog>
+  <footer><span>Made for people in the same room.</span><span>Less presenting. More participating.</span></footer>
+</body>
+</html>
